@@ -29,7 +29,8 @@ footer p{
  	 text-align: left;
   	font-size: 10px;
   	font-style: bold;
-
+  	padding-top: 10px;
+  	padding-bottom: 10px;
 
 }
 
@@ -43,7 +44,6 @@ footer p{
 
 #nav-bar ul{
 	  background-color:rgb(89, 89, 89);
-	  height: 10px;
 	  cursor:pointer;
 }
 
@@ -72,7 +72,7 @@ background-color:rgb(255, 238, 204);
 #EDUCATION{
 overflow: auto;
 display: none;
-font-size: 10px;
+font-size: 2%;
 background-color:rgb(255, 238, 204);
 }
 #EDUCATION table{
@@ -218,18 +218,19 @@ body {
 }
 
 footer{
-position: -webkit-sticky;
-  position: sticky;
+  position:-webkit-sticky;
+  position:sticky;
+  bottom: 0px;
 	 width:100%;
 	 background-color: black;
 	 color:white;
-	 font-size: 30px;
+	 font-size: 20px;
 }
 
 footer p{
 	bottom: 0px;
-	position: -webkit-sticky;
-  position: sticky;
+	position:-webkit-sticky;
+  position:sticky;
 }
 
 #nav-bar li{
@@ -287,7 +288,6 @@ overflow: auto;
 #EDUCATION{
 overflow: auto;
 display: none;
-font-size: 300%;
 background-color:rgb(255, 238, 204);
 }
 #EDUCATION table{
@@ -301,16 +301,16 @@ width: 100%;
 }
 #EDUCATION th, td {
   background-color: #96D4D4;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 #EDUCATION th:hover {
   background-color: rgb(245,245,245);
   color: rgb(25,25,25);
-  font-size: 280%;
+  font-size: 30px;
 }
 #EDUCATION div{
-
+	font-size: 25px;
 	background-color: rgb(244,244,244);
 }
 #EDUCATION p{
@@ -319,7 +319,7 @@ width: 100%;
 
 #PROJECT{
 display: none;
-font-size: 300%;
+font-size: 25px;
 background-color:rgb(255, 238, 204);
 }
 #PROJECT div{
@@ -342,7 +342,7 @@ background-color:rgb(255, 238, 204);
 
 #ABOUT{
 display: none;
-font-size: 300%;
+font-size: 25px;
 background-color:rgb(255, 238, 204);
 }
 
