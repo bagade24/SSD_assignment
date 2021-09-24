@@ -1,0 +1,425 @@
+
+
+@media screen and (max-width:680px) {
+body {
+  background-color: rgb(64, 64, 64);
+}
+
+footer{
+	bottom: 0px;
+	 height:10px;
+	 width:100%;
+	 padding-bottom: 10px;
+	 background-color: black;
+	 color:white;
+	 font-size: 14px;
+}
+
+footer p{
+	bottom: 0px;
+	position: -webkit-sticky;
+  position: sticky;
+}
+
+#nav-bar li{
+	float: left;
+    width: 100%;
+ 	display: block;
+ 	 color: #f2f2f2;
+ 	 text-align: left;
+  	font-size: 10px;
+  	font-style: bold;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+
+}
+
+
+
+#nav-bar li:hover {
+  background-color: white;
+  color:black;
+  transform: scale(1.1);
+}
+
+#nav-bar ul{
+	  background-color:rgb(89, 89, 89);
+	  cursor:pointer;
+}
+
+#HOME{
+display: block;
+display: flex;
+width: 100%;
+font-size: 30px;
+background-color:rgb(255, 238, 204);
+}
+
+.slate {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.slate p{
+	font-family: 'Sofia';
+	padding-right: 1%;
+	width:80%;
+	//background: rgb(200,200,200);
+	color:black;
+	font-size: 10px;
+}
+
+#EDUCATION{
+overflow: auto;
+display: none;
+font-size: 2%;
+background-color:rgb(255, 238, 204);
+}
+#EDUCATION table{
+height:60px;
+width: 60px;
+}
+#EDUCATION table, th, td {
+	
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+#EDUCATION th, td {
+  background-color: #96D4D4;
+  font-size: 10px;
+}
+
+#EDUCATION th:hover {
+  background-color: rgb(245,245,245);
+  color: rgb(25,25,25);
+  font-size: 15px;
+}
+#EDUCATION div{
+
+	background-color: rgb(244,244,244);
+}
+#EDUCATION p{
+	 font-family: "Sofia", sans-serif;
+}
+
+#PROJECT{
+display: none;
+background-color:rgb(255, 238, 204);
+}
+#PROJECT div{
+	background-color: rgb(255, 238, 204);
+	border: 115px;
+	width:100%;
+	font-size: 12px;
+	border-style: solid;
+  	border-width: 5px;
+//rgb(161, 187, 180)
+}
+#PROJECT div:hover{
+	background-color: rgb(161, 187, 180);
+	border: 115px;
+	width:100%;
+	border-style: solid;
+  	border-width: 5px;
+//rgb(161, 187, 180)
+}
+
+
+#ABOUT{
+display: none;
+background-color:rgb(255, 238, 204);
+}
+
+#ABOUT div{
+	background-color: rgb(255, 238, 204);
+	border: 115px;
+	width:100%;
+	font-size: 10px;
+	border-style: solid;
+  	border-width: 5px;
+
+}
+#ABOUT div:hover{
+	background-color: rgb(255, 255, 255);
+	border: 115px;
+	width:100%;
+	border-style: solid;
+  	border-width: 5px;
+
+}
+
+#profile{
+	border-radius: 100%;
+	height: 160px;
+ 	 width: 160px;
+ 	 display: inline-block;
+ 	 padding-left: 2%;
+
+}
+
+#content{
+	font-family: 'Sofia';
+	padding-right: 1%;
+	width:80%;
+	//background: black;
+	color:black;
+	font-size: 100%;
+
+}
+
+#nav-bar{
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  height:15%%;
+}
+
+#titlename{
+	text-align: left;
+	float:none;
+	width:100%;
+	font-size: 10px;
+	 font-family: "Sofia", sans-serif;
+	color:white;
+	background-color : black;
+}
+#top{
+	width:100%;
+	height: 10px;
+	background-color: black;
+}
+/* Style the links inside the navigation bar */
+#iiit{
+	height: 45%;
+ 	width: 45%;
+ 	display: inline-block;
+ 	padding-left: 2%;
+}
+#tedx{
+	height:80px;
+ 	width: 60px;
+ 	display: inline-block;
+ 	padding-left: 2%;
+}
+#cricket{
+	height: 60px;
+ 	width: 80px;
+ 	display: inline-block;
+ 	padding-left: 2%;
+}
+}
+
+@media screen and (min-width: 681px)
+{
+
+
+body {
+  background-color: rgb(64, 64, 64);
+}
+
+footer{
+  position:-webkit-sticky;
+  position:sticky;
+  bottom: 0px;
+	 width:100%;
+	 background-color: black;
+	 color:white;
+	 font-size: 20px;
+}
+
+footer p{
+	bottom: 0px;
+	position:-webkit-sticky;
+  position:sticky;
+}
+
+#nav-bar li{
+	display: inline;
+	height:50px;
+	width:20%;
+ 	 float: left;
+ 	 display: block;
+ 	 color: #f2f2f2;
+ 	 text-align: center;
+  	font-size: 20px;
+  	font-style: bold;
+
+
+}
+
+
+
+#nav-bar li:hover {
+  background-color: white;
+  color:black;
+  transform: scale(1.2);
+}
+
+#nav-bar ul{
+	  background-color:rgb(89, 89, 89);
+	  height: 60px;
+	  cursor:pointer;
+}
+
+#HOME{
+display: block;
+display: flex;
+height: 60%;
+font-size: 30px;
+background-color:rgb(255, 238, 204);
+overflow: auto;
+}
+
+.slate {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.slate p{
+	font-family: 'Sofia';
+	padding-right: 1%;
+	width:80%;
+	//background: rgb(200,200,200);
+	color:black;
+	font-size: 30px;
+
+}
+
+#EDUCATION{
+overflow: auto;
+display: none;
+background-color:rgb(255, 238, 204);
+}
+#EDUCATION table{
+height:100%;
+width: 100%;
+}
+#EDUCATION table, th, td {
+	
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+#EDUCATION th, td {
+  background-color: #96D4D4;
+  font-size: 25px;
+}
+
+#EDUCATION th:hover {
+  background-color: rgb(245,245,245);
+  color: rgb(25,25,25);
+  font-size: 30px;
+}
+#EDUCATION div{
+	font-size: 25px;
+	background-color: rgb(244,244,244);
+}
+#EDUCATION p{
+	 font-family: "Sofia", sans-serif;
+}
+
+#PROJECT{
+display: none;
+font-size: 25px;
+background-color:rgb(255, 238, 204);
+}
+#PROJECT div{
+	background-color: rgb(255, 238, 204);
+	border: 115px;
+	width:100%;
+	border-style: solid;
+  	border-width: 5px;
+//rgb(161, 187, 180)
+}
+#PROJECT div:hover{
+	background-color: rgb(161, 187, 180);
+	border: 115px;
+	width:100%;
+	border-style: solid;
+  	border-width: 5px;
+//rgb(161, 187, 180)
+}
+
+
+#ABOUT{
+display: none;
+font-size: 25px;
+background-color:rgb(255, 238, 204);
+}
+
+#ABOUT div{
+	background-color: rgb(255, 238, 204);
+	border: 115px;
+	width:100%;
+	border-style: solid;
+  	border-width: 5px;
+
+}
+#ABOUT div:hover{
+	background-color: rgb(255, 255, 255);
+	border: 115px;
+	width:100%;
+	border-style: solid;
+  	border-width: 5px;
+
+}
+
+#profile{
+	border-radius: 100%;
+	height: 100%;
+ 	 width: 45%;
+ 	 display: inline-block;
+ 	 padding-left: 2%;
+
+}
+
+#content{
+	font-family: 'Sofia';
+	padding-right: 1%;
+	width:80%;
+	//background: black;
+	color:black;
+	font-size: 100%;
+
+}
+
+#nav-bar{
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+}
+
+#titlename{
+	text-align: center;
+	float:center;
+	font-size: 30px;
+	 font-family: "Sofia", sans-serif;
+	color:white;
+	background-color : black;
+}
+#top{
+	width:100%;
+	height: 10%;
+	background-color: black;
+}
+/* Style the links inside the navigation bar */
+#iiit{
+	height: 45%;
+ 	width: 45%;
+ 	display: inline-block;
+ 	padding-left: 2%;
+}
+#tedx{
+	height: 45%;
+ 	width: 25%;
+ 	display: inline-block;
+ 	padding-left: 2%;
+}
+#cricket{
+	height: 55%;
+ 	width: 35%;
+ 	display: inline-block;
+ 	padding-left: 2%;
+}
+
+
+}
