@@ -1,6 +1,6 @@
 Professional Portfolio
 
-URL : 
+URL : https://bagade24.github.io/SSD_assignment/
 
 I made a SINGLE page website. It has multiple tabs
 linked together under a single navigation bar. (Home, About, Education,
